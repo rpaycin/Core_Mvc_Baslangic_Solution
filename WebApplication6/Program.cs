@@ -30,7 +30,7 @@ namespace WebApplication6
             })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>().UseSerilog();
+                    webBuilder.UseStartup<Startup>().UseSerilog();//serilog için eklenmeli
                 });
     }
 }
